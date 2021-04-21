@@ -1,0 +1,32 @@
+body{
+    margin: 0 22% 0 22%;
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    background-color: #A52A2A ;
+    color: #fff;
+}
+
+.elit {
+    font-style:italic;
+}
+
+.alias {
+    color: #0000FF;
+    font-style: italic;
+}
+
+.cars {
+    border: 3px dashed #000;
+}
+.lorem {
+    color: #0000FF;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+}
