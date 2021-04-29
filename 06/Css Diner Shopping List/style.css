@@ -57,7 +57,6 @@ input {
 
 input:checked+.list {
 	text-decoration: line-through;
-	background: #625e77;
 }
 
 .appetit {
@@ -73,9 +72,21 @@ input:checked+.list {
 	font-size: 20px;
 }
 
+small::after {
+	content: ")";
+}
+
+small::before {
+	content: "(";
+}
+
 .list {
 	margin: 0;
 	height: 65px;
+}
+
+input:active+.list {
+	background: red;
 }
 
 .list:hover {
