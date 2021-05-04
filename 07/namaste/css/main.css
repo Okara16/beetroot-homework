@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .1s ease-in;
+}
+
+body {
+    text-align: center;
+    color: #898f99;
+    text-transform: uppercase;
+}
+
+.header {
+    padding-top: 144px;
+}
+
+.who__we__are {
+    font-size: 12px;
+}
+
+h1 {
+    color: #0ec8cb;
+    font-size: 48px;
+}
+
+.wrapper {
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    margin-top: 44px;
+}
+
+.items {
+    width: 240px;
+    height: 420px;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.text {
+    margin-top: 32px;
+    text-transform: none;
+}
+
+.items:hover {
+    background-color: #27b4b6;
+    color: white;
+    cursor: pointer;
+}
+
+.far {
+    font-size: 64px;
+    padding-top: 45px;
+}
+
+.fas {
+    font-size: 64px;
+    padding-top: 45px;
+}
