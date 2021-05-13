@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.title {
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+.title__line {
+    width: 45px;
+    height: 4px;
+    background: #dddbdb;
+    margin: 20px auto;
+}
+
+.title p, .container{
+    margin-top: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.card1, .card2, .card3, .card4 {
+    margin-left: 30px;
+    position: relative;
+}
+
+.card1__bg {
+    background-image: url(images/img1.jpg);
+}
+
+.card2__bg {
+    background-image: url(images/img1.jpg);
+    z-index: 1;
+}
+
+.card3__bg {
+    background-image: url(images/img2.jpg);
+}
+
+.card4__bg {
+    background-image: url(images/img3.jpg);
+}
+
+.card1__bg, .card2__bg, .card3__bg, .card4__bg {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 270px;
+    height: 270px;
+}
+
+.card1__name, .card2__name, .card3__name, .card4__name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card1__profession, .card2__profession, .card3__profession, .card4__profession {
+    opacity: 0.6;
+}
+
+.card1__overlay, .card2__overlay, .card3__overlay, .card4__overlay {
+    width: 270px;
+    height: 270px ;
+    background: #18b5dc;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.4s;
+
+}
+
+.card1__overlay__icons, .card2__overlay__icons, .card3__overlay__icons, .card4__overlay__icons {
+    
+    color: #fff;
+    margin-right: 5px;
+}
+
+.fab {
+    width: 42px;
+    height: 42px;
+    font-size: 22px;
+    margin-left: 5px;
+    background: #5ecbe7;
+    margin-top: 42%;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.card1__overlay:hover,
+.card2__overlay:hover,
+.card3__overlay:hover,
+.card4__overlay:hover {
+    opacity: 1;
+    width: 270px;
+    height: 270px;
+}
