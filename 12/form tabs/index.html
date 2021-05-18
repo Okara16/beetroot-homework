@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+            <div class="tabs"><div class="block-form">
+                <div class="tab">
+                    <input type="radio" id="tab1" name="tab-group" checked>
+                    <label for="tab1" class="tab-title">Sign in</label>
+                    <section class="tab-content">
+                        <form action="#" method="GET" class="form">
+                            <label class="form__label">Username
+                                <input type="name" name="username" class="form__input">
+                            </label>
+                            <label class="form__label">Password *
+                                <input type="password" name="password" required minlength="3" maxlength="30"
+                                    autocomplete="off" class="form__input">
+                                <span class="form__error">error</span>
+                            </label>
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="keep" checked>
+                                <label for="keep" class="form__label">
+                                    <span class="form__checkbox">&#10004</span>
+                                    <span class="form__label-text">Keep me signed in</span>
+                                </label>
+                            </div>
+
+                            <button class="form__btn">Sign in</button>
+                        </form>
+                        <div class="block-links">
+                            <a href="#" class="block-links__a  block-links__a--active">Forgot password</a>
+                            <a href="#" class="block-links__a  block-links__a--active">Create an account</a>
+                        </div>
+                    </section>
+                </div>
+                <div class="tab">
+                    <input type="radio" id="tab2" name="tab-group" checked>
+                    <label for="tab2" class="tab-title">Join Us</label>
+                    <section class="tab-content">
+                        <form action="#" method="GET" class="form">
+                            <label class="form__label">Username
+                                <input type="name" name="username" class="form__input">
+                            </label>
+                            <label class="form__label">Password *
+                                <input type="password" name="password" required minlength="3" maxlength="30"
+                                    autocomplete="off" class="form__input">
+                                <span class="form__error">error</span>
+                            </label>
+                            <label class="form__label">Repeat password *
+                                <input type="password" name="password" required minlength="3" maxlength="30"
+                                    autocomplete="off" class="form__input">
+                                <span class="form__error">error</span>
+                            </label>
+
+
+                            <button class="form__btn">Sign in</button>
+                        </form>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
