@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.section-hero {
+    background: url(../img/hero-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 1070px;
+    text-align: center;
+    padding-top: 285px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.section-hero__logo {
+    width: 75px;
+    height: 75px;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-hero__title {
+    margin-top: 90px;
+    font-size: 54px;
+}
+
+.section-hero__text {
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.section-hero__scroll {
+    margin: 0 auto;
+    display: block;
+    margin-top: 245px;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #3c3c3c;
+    border-top: none;
+    padding-top: 65px;
+    padding-bottom: 55px;
+    position: relative;
+}
+
+.about-us {
+    text-align: center;
+    padding-top: 165px;
+    padding-bottom: 150px;
+}
+
+.content-about-us {
+    text-align: center;
+}
+
+.content::before, .content::after {
+    content: "";
+    width: calc(50% - 210px);
+    border-top: 2px solid #3c3c3c;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.content::after {
+    left: 0;
+}
+
+.content__title {
+    font-size: 34px;
+    color: #3c3c3c;
+    margin-top: -85px;
+    text-transform: uppercase;
+}
+
+.content__text {
+    margin-top: 65px;
+    padding-bottom: 35px;
+}
+
+.services {
+    background: url(../img/services-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding-top: 130px;
+    padding-bottom: 110px;
+    color: #fff;
+}
+
+.content-services {
+    border-color: #fff;
+}
+
+.content-services::before, .content-services::after {
+    content: "";
+    border-top: 2px solid #fff;
+}
+
+.what-we-do {
+    padding-top: 118px;
+}
+
+.content-what-we-do__block--flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 90px;
+}
+
+.content-title--color {
+    color: #fff;
+}
+
+.content-what-we-do__link {
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+.content-what-we-do__icon:hover {
+    transform: scale(1.4);
+    background: #ffdada;
+}
+
+.content-what-we-do__description {
+    margin-top: 110px;
+}
+
+.block-what-we-do__title {
+    margin-top: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.content-what-we-do__description-text {
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.our-works {
+    padding-top: 115px;
+    padding-bottom: 140px;
+}
+
+.our-works__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our-works__item {
+    list-style: none;
+    display: block;
+    margin-bottom: 6px;
+    width: 29%;
+    height: 236px;
+    position: relative;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.our-works__item:hover {
+    opacity: .8;
+    transform: scale(0.9);
+    z-index: 2;
+}
+
+.our-works__item:nth-child(2), .our-works__item:nth-child(5) {
+    width: 41%;
+}
+
+.our-works__item:nth-child(1) {
+    background: url(../img/topworkz.jpg);
+}
+
+.our-works__item:nth-child(2) {
+    background: url(../img/joint.jpg);
+}
+
+.our-works__item:nth-child(3) {
+    background: url(../img/market.jpg);
+}
+
+.our-works__item:nth-child(4) {
+    background: url(../img/worktop.jpg);
+}
+
+.our-works__item:nth-child(5) {
+    background: url(../img/lable.jpg);
+}
+
+.our-works__item:nth-child(6) {
+    background: url(../img/kyiv.jpg);
+}
+
+.our-works__link {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 42px;
+    left: 42px;
+}
+
+.btn {
+    width: 395px;
+    height: 58px;
+    background: #3c3c3c;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.btn:hover {
+    opacity: .7;
+}
+
+.btn:active {
+    opacity: 1;
+}
+
+.footer {
+    padding: 64px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    margin-left: 35px;
+    font-size: 14px;
+}
