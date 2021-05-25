@@ -204,12 +204,12 @@ body {
 
 .container-blog {
     margin-top: 45px;
+    justify-content: space-between;
 }
 
 .card_1, .card_2, .card_3 {
     width: 370px;
     height: 315px;
-    margin-left: 20px;
     position: relative;
     box-shadow: 0px 0px 9px 0px black;
     transition: all 0.4s;
@@ -412,12 +412,19 @@ body {
         top: 140px;
     }
     .nav-header__list {
-        display: flex;
-        justify-content: flex-start;
-        font-size: 12px;
+        width: 350px;
     }
     .nav-header__item {
         margin-left: 12px;
+        margin-top: 15px;
+        font-size: 8px;
+    }
+
+    .section-about-us {
+        text-align: center;
+    }
+    .section-our-services__item {
+        width: 300px;
     }
     .section-our-services__title {
         font-size: 40px;

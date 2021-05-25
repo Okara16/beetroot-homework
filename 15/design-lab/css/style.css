@@ -251,6 +251,16 @@ body {
 }
 
 @media screen and (max-width: 720px) {
+
+    .section-hero {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .content::before, .content::after { 
+        width: calc(50% - 130px);
+    }
+   
     .our-works__list {
         display: flex;
         flex-direction: column;
@@ -264,6 +274,11 @@ body {
     
 .our-works__item:nth-child(2), .our-works__item:nth-child(5) {
     width: 100%;
+}
+
+.btn {
+    width: 200px;
+    margin: 0 auto;
 }
 }
 
